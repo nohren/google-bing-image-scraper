@@ -1,4 +1,4 @@
-# google-web-scraper
+# google-bing-web-scraper
 Useful for auto scrolling all of google for the images you want.  It automatically filters out watermarked images.
 
 Syntax:

@@ -4,7 +4,7 @@ Useful for auto scrolling all of google for the images you want.  It automatical
 Syntax:
 
 In Command line:
-python web_scraper.py -s bananas -d <directory> -n 100 
+python web_scraper.py -s bananas -d '<directory>' -n 100 
 
 -e search engine (default is google, can also do bing)
 -s search string

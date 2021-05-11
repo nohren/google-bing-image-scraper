@@ -1,5 +1,5 @@
 # google-web-scraper
-Useful for auto scrolling all of google for the images you want.  
+Useful for auto scrolling all of google for the images you want.  It automatically filters out watermarked images.
 
 Syntax:
 

@@ -1,4 +1,5 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 import time
 import requests
 import shutil
@@ -104,7 +105,7 @@ if __name__ == "__main__": #once python script is opened in cmd prompt then __na
     parser.add_argument('-d', '--directory', default='../Downloads/', type=str, metavar='', help='save directory')
     parser.add_argument('-n', '--n_Images', default=100, type=int, metavar='', help='Number of Images to scrape')
     args = parser.parse_args()
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     directory = args.directory
     inp = args.search
     n_Images = args.n_Images

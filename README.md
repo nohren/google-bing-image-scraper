@@ -13,3 +13,6 @@ python web_scraper.py -s bananas -d <directory> -n 100
 
 Make sure you are in the correct env with required packages.  Also make sure the ChromeDriver is updated to your latest version of Chrome.
 https://pypi.org/project/chromedriver-py/
+
+
+** Use at your own discretion, if you use for bad things that's on you and I am not responsible**
